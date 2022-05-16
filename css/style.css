@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.logo_container {
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.logo_container_logo_is {
+    color: lightgreen;
+}
+
+.header_welcome_message {
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    left: 10%;
+    top: 20%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.header_welcome_message_button {
+    position: absolute;
+    left: 30px;
+    padding: 15px;
+    width: 40%;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: lightgreen;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+main {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_welcome_message_button:hover {
+    background-color: #111;
+}
+
+.main_heading {
+    position: absolute;
+    font-size: 4rem;
+    top: 1%;
+    letter-spacing: 10px;
+}
+
+form {
+    height: 20rem;
+    width: 30rem;
+    box-shadow: 0px 0px 5px gray;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form_heading {
+    font-size: 2rem;
+    position: absolute;
+    top: 8%;
+}
+
+.main_text_inputs {
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main_submit_button {
+    padding: 15px;
+    width: 86%;
+    border-radius: 10px;
+    border: none;
+    background-color: #222;
+    color: lightgreen;
+    font-size: 1.2rem;
+}
+
+.main_feedback {
+    background-color: red;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+footer {
+    position: relative;
+    height: 20vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.logo_container_logo_footer {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
